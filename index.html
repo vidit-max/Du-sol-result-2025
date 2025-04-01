@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOL Result 2024</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        .container {
+            border: 1px solid #ddd;
+            padding: 20px;
+            max-width: 400px;
+            margin: auto;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+            border-radius: 8px;
+        }
+        input {
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        button {
+            padding: 10px 20px;
+            background: blue;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    </style>
+    <script>
+        function checkResult() {
+            document.getElementById('status').innerText = "Fetching result...";
+            setTimeout(function() {
+                window.location.href = "apri.1200x800-1.webp"; // Prank image link
+            }, 3000);
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h2>SOL Result 2024</h2>
+        <p>Enter your details below to check your result:</p>
+        <input type="text" placeholder="Roll Number" required>
+        <input type="date" required>
+        <br>
+        <button onclick="checkResult()">Check Result</button>
+        <p id="status"></p>
+    </div>
+</body>
+</html>
